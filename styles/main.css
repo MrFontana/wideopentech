@@ -1,0 +1,127 @@
+h1, h2, h3, h4, h5, h6,div, em {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+p,a,li,button,small,span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+}
+.top-header {
+  background: white;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+}
+.logo-top {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  margin-bottom: 20px;
+}
+.logo-top img {
+  height: 50px;
+}
+.menu-right {
+  float: right;
+  margin-top: 20px;
+}
+.ham {
+  height: 50px;
+  width: 50px;
+  /*overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  margin-bottom: 20px;*/
+}
+.ham img {
+  height: 30px;
+  width:30px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") center no-repeat;
+  background-size: cover;
+  height: 55vh;
+  width: 100%;
+  top: 0;
+  left:0;
+}
+/*.flex-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}*/
+.digital {
+  letter-spacing: 2px;
+  font-size: 6vw;
+  color: white;
+  margin-top: -42vh;
+}
+.workshop {
+  /*font-size: 70px;*/
+  font-size: 18vw;
+  color: white;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.flex-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dashes {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -51px;
+
+}
+.dash {
+  font-weight: 800;
+  font-size: 100px;
+  /*margin: 0px 50px;*/
+  display: inline-block;
+  margin: 5px 8%;
+}
+/*.left {
+  margin-right: 80px;
+}
+.right {
+  margin-left: 80px;
+}*/
+.building {
+  font-size: 4vw;
+  letter-spacing: 1px;
+  margin-top: -47px;
+  color: white;
+}
+.solutions-bright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 5vw;
+  color: white;
+}
+.solutions {
+
+}
+.orange {
+  color: orange;
+}
+.green {
+  color: #BDD436;
+}
+.learn button {
+  color: white;
+  
+}
