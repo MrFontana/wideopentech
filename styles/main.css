@@ -134,7 +134,7 @@ button:focus {
   border: none;
 }
 .container-2 {
-  height: 600px;
+  height: 640px;
   background: #f0f0f0;
 }
 .about-us {
@@ -145,4 +145,17 @@ button:focus {
   padding-top: 30px;
   text-align: center;
   color: #788488;
+}
+.tools {
+  margin-top: 30px;
+}
+.heres-how {
+  text-transform: uppercase;
+  font-size: 11vw;
+  color: #6A787C;
+  margin-top: 80px;
+}
+.heres-how em {
+  font-weight: bold;
+  color: #BDD436;
 }
