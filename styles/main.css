@@ -123,5 +123,26 @@ body {
 }
 .learn button {
   color: white;
-  
+  margin-top: 65px;
+  background: #BDD436;
+  width: 90vw;
+  height: 50px;
+  border-radius: 50px;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+.container-2 {
+  height: 600px;
+  background: #f0f0f0;
+}
+.about-us {
+  font-size: 6vw;
+  letter-spacing: 1px;
+  line-height: 37px;
+  padding: 10px;
+  padding-top: 30px;
+  text-align: center;
+  color: #788488;
 }
